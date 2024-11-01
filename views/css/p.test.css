@@ -1,0 +1,21 @@
+
+main article pre.pre-obj,
+main article div.pre-obj {
+    font-family: monospace;
+    width: 200%;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    padding: 1em;
+}
+main article pre.pre-obj {
+    font-size: .6em;
+}
+main article div.pre-obj {
+    font-size: .9em;
+    font-weight: bold;
+    background: #554;
+    color: #eee;
+    padding: .2em 0em .2em 1em;
+    margin: 0;
+}

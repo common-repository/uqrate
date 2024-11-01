@@ -1,0 +1,45 @@
+/*  Admin > Settings > plugin  */
+
+
+/* Settings page */
+#uqrate_setup_prompt button.activate,
+#uqrate_setup_prompt input,
+#uqrate_settings a.button.activate,
+#uqrate_settings_block input[type="submit"] {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #eee;
+	border: none;
+	border-radius: .5em;
+	background: #2271b1;
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#2271b1), to(#13578f));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #13578f, #2271b1);
+	box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.3); /* x, y, blur */
+}
+
+#uqrate_setup_prompt button.activate,
+#uqrate_setup_prompt input {
+	margin: .2em 0 .2em 0;
+	padding: .3em 1em .3em 1em;
+
+}
+#uqrate_setup_prompt button.activate:hover,
+#uqrate_setup_prompt input:hover,
+#uqrate_settings a.button.activate:hover,
+#uqrate_settings_block input[type="submit"]:hover {
+	color: #fff;
+	background: #13578f;
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#13578f), to(#0092BF));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #0092BF, #13578f);
+	box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.4); /* x, y, blur */
+
+}
+#uqrate_setup_prompt button.activate:active,
+#uqrate_setup_prompt input:active,
+#uqrate_settings a.button.activate:active,
+#uqrate_settings_block input[type="submit"]:active {
+	background: #13578f;
+	background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#13578f), to(#0092BF));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #0092BF, #13578f);
+	opacity: .7;
+}

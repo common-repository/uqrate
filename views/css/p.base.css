@@ -1,0 +1,15 @@
+
+
+/***  DISABLE (hide) COMMENTS : el(s) probably removed by JS  ***/
+div.wp-block-post-comments {
+	display: none;
+}
+
+/*  common  */
+
+#wp-admin-bar-comments,
+#latest-comments,
+#dashboard_right_now .comment-count,
+#welcome-panel a.welcome-comments {
+    display: none;
+}
